@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Banner from "./component/Banner";
+import HowItWorks from "./component/HowItWorks";
+import PopularCategories from "./component/PopularCategories";
 
 export default function Home() {
   return (
     <div>
-      Home page
+    <Banner></Banner>
+    <HowItWorks></HowItWorks>
+    <PopularCategories></PopularCategories>
     </div>
   );
 }

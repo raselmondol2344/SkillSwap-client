@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Build a Responsive Business Website",
+    "client_name": "Rahim Ahmed",
+    "category": "web development",
+    "budget": "450",
+    "deadline": "2026-11-15",
+    "details": "Need a responsive business website with Home, About, Services, Contact, and mobile-friendly design."
+  },
+  {
+    "title": "Create a React Admin Dashboard",
+    "client_name": "Nusrat Jahan",
+    "category": "programming",
+    "budget": "600",
+    "deadline": "2026-11-20",
+    "details": "Need a React developer to build an admin dashboard with charts, tables, authentication, and responsive layout."
+  },
+  {
+    "title": "Modern Logo Design for Startup",
+    "client_name": "Tanvir Hasan",
+    "category": "design",
+    "budget": "120",
+    "deadline": "2026-11-08",
+    "details": "Need a modern and professional logo for a technology startup with source files and multiple variations."
+  },
+  {
+    "title": "Analyze E-commerce Sales Dataset",
+    "client_name": "Sadia Islam",
+    "category": "data science",
+    "budget": "300",
+    "deadline": "2026-11-18",
+    "details": "Analyze an e-commerce sales dataset and provide useful insights, trends, visualizations, and recommendations."
+  },
+  {
+    "title": "Build Customer Churn Prediction Model",
+    "client_name": "Fahim Rahman",
+    "category": "machine learning",
+    "budget": "550",
+    "deadline": "2026-11-25",
+    "details": "Develop a machine learning model to predict customer churn using a provided customer dataset."
+  },
+  {
+    "title": "Create Landing Page with Next.js",
+    "client_name": "Imran Kabir",
+    "category": "web development",
+    "budget": "250",
+    "deadline": "2026-11-12",
+    "details": "Create a modern landing page using Next.js and Tailwind CSS with responsive design and smooth animations."
+  },
+  {
+    "title": "Python Automation Script",
+    "client_name": "Arif Hossain",
+    "category": "programming",
+    "budget": "180",
+    "deadline": "2026-11-10",
+    "details": "Need a Python script to automate repetitive file processing and data organization tasks."
+  },
+  {
+    "title": "Social Media Post Design",
+    "client_name": "Mim Akter",
+    "category": "design",
+    "budget": "150",
+    "deadline": "2026-11-07",
+    "details": "Design 15 professional social media posts for a fashion brand with consistent branding."
+  },
+  {
+    "title": "Data Cleaning and Visualization",
+    "client_name": "Shakil Ahmed",
+    "category": "data science",
+    "budget": "220",
+    "deadline": "2026-11-16",
+    "details": "Clean a CSV dataset, handle missing values, and create meaningful charts and visualizations."
+  },
+  {
+    "title": "Image Classification Model",
+    "client_name": "Mehedi Hasan",
+    "category": "machine learning",
+    "budget": "700",
+    "deadline": "2026-12-01",
+    "details": "Build an image classification model using a provided dataset and provide training and evaluation results."
+  },
+  {
+    "title": "Develop REST API with Node.js",
+    "client_name": "Rafiul Islam",
+    "category": "programming",
+    "budget": "400",
+    "deadline": "2026-11-22",
+    "details": "Build a secure REST API using Node.js, Express, and MongoDB with authentication and CRUD operations."
+  },
+  {
+    "title": "Portfolio Website Design",
+    "client_name": "Jannatul Ferdous",
+    "category": "design",
+    "budget": "200",
+    "deadline": "2026-11-14",
+    "details": "Design a clean and creative portfolio website for a freelance designer."
+  },
+  {
+    "title": "WordPress Business Website",
+    "client_name": "Sabbir Chowdhury",
+    "category": "web development",
+    "budget": "350",
+    "deadline": "2026-11-19",
+    "details": "Create a professional WordPress business website with custom sections and mobile responsiveness."
+  },
+  {
+    "title": "Sales Forecasting Project",
+    "client_name": "Anika Sultana",
+    "category": "data science",
+    "budget": "450",
+    "deadline": "2026-11-30",
+    "details": "Create a sales forecasting model from historical sales data and provide visual reports."
+  },
+  {
+    "title": "Spam Email Detection Model",
+    "client_name": "Nayeem Hasan",
+    "category": "machine learning",
+    "budget": "350",
+    "deadline": "2026-11-21",
+    "details": "Develop a machine learning model that can classify emails as spam or legitimate."
+  },
+  {
+    "title": "Fix React Application Bugs",
+    "client_name": "Saiful Islam",
+    "category": "programming",
+    "budget": "150",
+    "deadline": "2026-11-06",
+    "details": "Need an experienced React developer to identify and fix several UI and functionality bugs."
+  },
+  {
+    "title": "Restaurant Website Development",
+    "client_name": "Mahmudul Hasan",
+    "category": "web development",
+    "budget": "500",
+    "deadline": "2026-11-28",
+    "details": "Build a modern restaurant website with menu, reservation, gallery, contact, and responsive design."
+  },
+  {
+    "title": "Mobile App UI Design",
+    "client_name": "Tania Rahman",
+    "category": "design",
+    "budget": "280",
+    "deadline": "2026-11-17",
+    "details": "Design UI screens for a mobile productivity application using Figma."
+  },
+  {
+    "title": "Customer Data Analysis",
+    "client_name": "Omar Faruk",
+    "category": "data science",
+    "budget": "260",
+    "deadline": "2026-11-23",
+    "details": "Analyze customer behavior data and identify important customer segments and purchasing patterns."
+  },
+  {
+    "title": "House Price Prediction Model",
+    "client_name": "Rashed Khan",
+    "category": "machine learning",
+    "budget": "500",
+    "deadline": "2026-12-05",
+    "details": "Build a regression model to predict house prices using property features."
+  },
+  {
+    "title": "Next.js E-commerce Website",
+    "client_name": "Farhan Ahmed",
+    "category": "web development",
+    "budget": "850",
+    "deadline": "2026-12-10",
+    "details": "Develop an e-commerce website using Next.js with product listing, cart, authentication, and checkout."
+  },
+  {
+    "title": "Build Authentication System",
+    "client_name": "Siam Hossain",
+    "category": "programming",
+    "budget": "300",
+    "deadline": "2026-11-13",
+    "details": "Implement secure email and password authentication with Google login for a web application."
+  },
+  {
+    "title": "Brand Identity Design",
+    "client_name": "Rumana Akter",
+    "category": "design",
+    "budget": "400",
+    "deadline": "2026-11-29",
+    "details": "Create a complete brand identity including logo, colors, typography, and basic brand guidelines."
+  },
+  {
+    "title": "Employee Performance Analysis",
+    "client_name": "Kamal Hossain",
+    "category": "data science",
+    "budget": "320",
+    "deadline": "2026-11-27",
+    "details": "Analyze employee performance data and create a dashboard showing key performance indicators."
+  },
+  {
+    "title": "Recommendation System",
+    "client_name": "Zahid Hasan",
+    "category": "machine learning",
+    "budget": "650",
+    "deadline": "2026-12-08",
+    "details": "Develop a recommendation system for an online shopping platform using historical user behavior."
+  },
+  {
+    "title": "Convert Figma Design to React",
+    "client_name": "Ayesha Siddika",
+    "category": "web development",
+    "budget": "300",
+    "deadline": "2026-11-11",
+    "details": "Convert provided Figma designs into a pixel-perfect responsive React website."
+  },
+  {
+    "title": "Create Python Web Scraper",
+    "client_name": "Hasan Mahmud",
+    "category": "programming",
+    "budget": "200",
+    "deadline": "2026-11-09",
+    "details": "Build a Python web scraper to collect publicly available product information from multiple pages."
+  },
+  {
+    "title": "YouTube Thumbnail Design",
+    "client_name": "Sakib Rahman",
+    "category": "design",
+    "budget": "100",
+    "deadline": "2026-11-05",
+    "details": "Design 20 eye-catching YouTube thumbnails for a technology channel."
+  },
+  {
+    "title": "Business Data Dashboard",
+    "client_name": "Nadia Islam",
+    "category": "data science",
+    "budget": "480",
+    "deadline": "2026-12-02",
+    "details": "Create an interactive business dashboard with sales, revenue, customer, and product analytics."
+  },
+  {
+    "title": "Face Recognition Prototype",
+    "client_name": "Adnan Karim",
+    "category": "machine learning",
+    "budget": "750",
+    "deadline": "2026-12-12",
+    "details": "Create a prototype face recognition system using a suitable machine learning or computer vision approach."
+  },
+  {
+    "title": "Real Estate Website",
+    "client_name": "Morshed Alam",
+    "category": "web development",
+    "budget": "650",
+    "deadline": "2026-12-15",
+    "details": "Build a real estate website with property listings, search filters, property details, and contact forms."
+  },
+  {
+    "title": "JavaScript Bug Fixing",
+    "client_name": "Riyad Hossain",
+    "category": "programming",
+    "budget": "130",
+    "deadline": "2026-11-04",
+    "details": "Fix JavaScript errors and improve the functionality of an existing web application."
+  },
+  {
+    "title": "Website UI Redesign",
+    "client_name": "Shuvo Ahmed",
+    "category": "design",
+    "budget": "250",
+    "deadline": "2026-11-24",
+    "details": "Redesign an existing website with a modern, clean, professional, and user-friendly interface."
+  },
+  {
+    "title": "Customer Segmentation Analysis",
+    "client_name": "Priya Das",
+    "category": "data science",
+    "budget": "380",
+    "deadline": "2026-12-03",
+    "details": "Perform customer segmentation using transaction data and provide actionable business insights."
+  },
+  {
+    "title": "Sentiment Analysis Project",
+    "client_name": "Abir Chowdhury",
+    "category": "machine learning",
+    "budget": "420",
+    "deadline": "2026-12-06",
+    "details": "Build a sentiment analysis model to classify customer reviews as positive, negative, or neutral."
+  },
+  {
+    "title": "Online Course Platform",
+    "client_name": "Nasir Uddin",
+    "category": "web development",
+    "budget": "900",
+    "deadline": "2026-12-20",
+    "details": "Develop an online course platform with course listing, instructor profiles, student enrollment, and dashboard."
+  },
+  {
+    "title": "Build REST API Integration",
+    "client_name": "Sakina Rahman",
+    "category": "programming",
+    "budget": "220",
+    "deadline": "2026-11-26",
+    "details": "Integrate third-party REST APIs into an existing web application and handle errors properly."
+  },
+  {
+    "title": "Presentation Template Design",
+    "client_name": "Tamim Iqbal",
+    "category": "design",
+    "budget": "140",
+    "deadline": "2026-11-08",
+    "details": "Create a professional presentation template suitable for business meetings and client presentations."
+  },
+  {
+    "title": "Predictive Analytics Report",
+    "client_name": "Shirin Akter",
+    "category": "data science",
+    "budget": "500",
+    "deadline": "2026-12-09",
+    "details": "Analyze historical business data and create a predictive analytics report with charts and recommendations."
+  },
+  {
+    "title": "Fraud Detection Model",
+    "client_name": "Aminul Islam",
+    "category": "machine learning",
+    "budget": "800",
+    "deadline": "2026-12-18",
+    "details": "Develop a machine learning model to identify potentially fraudulent financial transactions."
+  },
+  {
+    "title": "Personal Portfolio Development",
+    "client_name": "Sohan Mia",
+    "category": "web development",
+    "budget": "220",
+    "deadline": "2026-11-15",
+    "details": "Create a responsive personal portfolio website with projects, skills, about, contact, and social links."
+  },
+  {
+    "title": "Build Inventory Management System",
+    "client_name": "Jubayer Ahmed",
+    "category": "programming",
+    "budget": "700",
+    "deadline": "2026-12-14",
+    "details": "Develop an inventory management system with product tracking, stock updates, reports, and user authentication."
+  },
+  {
+    "title": "Restaurant Branding Package",
+    "client_name": "Mahi Rahman",
+    "category": "design",
+    "budget": "350",
+    "deadline": "2026-11-30",
+    "details": "Create restaurant branding materials including logo, menu design, social media graphics, and color palette."
+  },
+  {
+    "title": "Marketing Campaign Data Analysis",
+    "client_name": "Rasel Karim",
+    "category": "data science",
+    "budget": "340",
+    "deadline": "2026-12-04",
+    "details": "Analyze digital marketing campaign data and determine which campaigns provide the best return."
+  },
+  {
+    "title": "Object Detection Model",
+    "client_name": "Fardin Hossain",
+    "category": "machine learning",
+    "budget": "900",
+    "deadline": "2026-12-22",
+    "details": "Develop an object detection prototype for identifying specific objects in images."
+  },
+  {
+    "title": "Blog Website Development",
+    "client_name": "Sadia Ahmed",
+    "category": "web development",
+    "budget": "400",
+    "deadline": "2026-11-27",
+    "details": "Build a modern blog website with categories, search, author profiles, comments, and responsive design."
+  },
+  {
+    "title": "Database Optimization",
+    "client_name": "Rakib Hasan",
+    "category": "programming",
+    "budget": "280",
+    "deadline": "2026-11-18",
+    "details": "Optimize MongoDB database queries and improve the performance of an existing Node.js application."
+  },
+  {
+    "title": "Mobile App Branding Design",
+    "client_name": "Faria Islam",
+    "category": "design",
+    "budget": "240",
+    "deadline": "2026-11-20",
+    "details": "Design a complete visual identity for a new mobile application including logo, colors, and app icons."
+  },
+  {
+    "title": "Data Visualization Dashboard",
+    "client_name": "Muntasir Ahmed",
+    "category": "data science",
+    "budget": "450",
+    "deadline": "2026-12-11",
+    "details": "Create an interactive data visualization dashboard with charts, filters, and important business metrics."
+  },
+  {
+    "title": "Text Classification System",
+    "client_name": "Noman Hossain",
+    "category": "machine learning",
+    "budget": "480",
+    "deadline": "2026-12-16",
+    "details": "Build a text classification model that can automatically categorize documents into predefined categories."
+  }
+]

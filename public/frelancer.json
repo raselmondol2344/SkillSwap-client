@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Arif Hossain",
+    "image": "https://i.pravatar.cc/300?img=11",
+    "skills": ["React", "Next.js", "JavaScript", "Tailwind CSS"],
+    "rating": 4.9,
+    "finished_work": 128
+  },
+  {
+    "name": "Nusrat Jahan",
+    "image": "https://i.pravatar.cc/300?img=5",
+    "skills": ["UI/UX Design", "Figma", "Adobe XD", "Photoshop"],
+    "rating": 4.8,
+    "finished_work": 96
+  },
+  {
+    "name": "Tanvir Ahmed",
+    "image": "https://i.pravatar.cc/300?img=12",
+    "skills": ["Node.js", "Express.js", "MongoDB", "REST API"],
+    "rating": 4.9,
+    "finished_work": 154
+  },
+  {
+    "name": "Sadia Rahman",
+    "image": "https://i.pravatar.cc/300?img=9",
+    "skills": ["Python", "Data Analysis", "Pandas", "NumPy"],
+    "rating": 4.7,
+    "finished_work": 82
+  },
+  {
+    "name": "Fahim Hasan",
+    "image": "https://i.pravatar.cc/300?img=13",
+    "skills": ["Machine Learning", "Python", "Scikit-learn", "TensorFlow"],
+    "rating": 4.9,
+    "finished_work": 73
+  },
+  {
+    "name": "Mim Akter",
+    "image": "https://i.pravatar.cc/300?img=47",
+    "skills": ["Graphic Design", "Logo Design", "Branding", "Illustrator"],
+    "rating": 4.8,
+    "finished_work": 117
+  },
+  {
+    "name": "Rafiul Islam",
+    "image": "https://i.pravatar.cc/300?img=14",
+    "skills": ["Vue.js", "JavaScript", "HTML", "CSS"],
+    "rating": 4.6,
+    "finished_work": 91
+  },
+  {
+    "name": "Jannatul Ferdous",
+    "image": "https://i.pravatar.cc/300?img=44",
+    "skills": ["Content Writing", "SEO", "Blog Writing", "Copywriting"],
+    "rating": 4.8,
+    "finished_work": 143
+  },
+  {
+    "name": "Mehedi Hasan",
+    "image": "https://i.pravatar.cc/300?img=15",
+    "skills": ["Python", "Deep Learning", "Computer Vision", "OpenCV"],
+    "rating": 4.9,
+    "finished_work": 68
+  },
+  {
+    "name": "Tania Sultana",
+    "image": "https://i.pravatar.cc/300?img=48",
+    "skills": ["UI Design", "Figma", "Web Design", "Prototyping"],
+    "rating": 4.7,
+    "finished_work": 105
+  },
+  {
+    "name": "Sakib Rahman",
+    "image": "https://i.pravatar.cc/300?img=16",
+    "skills": ["WordPress", "PHP", "WooCommerce", "Elementor"],
+    "rating": 4.6,
+    "finished_work": 134
+  },
+  {
+    "name": "Ayesha Siddika",
+    "image": "https://i.pravatar.cc/300?img=32",
+    "skills": ["Digital Marketing", "SEO", "Google Ads", "Social Media"],
+    "rating": 4.8,
+    "finished_work": 119
+  },
+  {
+    "name": "Nayeem Hasan",
+    "image": "https://i.pravatar.cc/300?img=17",
+    "skills": ["React", "TypeScript", "Next.js", "Firebase"],
+    "rating": 4.9,
+    "finished_work": 87
+  },
+  {
+    "name": "Rumana Akter",
+    "image": "https://i.pravatar.cc/300?img=49",
+    "skills": ["Illustration", "Graphic Design", "Photoshop", "Canva"],
+    "rating": 4.7,
+    "finished_work": 98
+  },
+  {
+    "name": "Hasan Mahmud",
+    "image": "https://i.pravatar.cc/300?img=18",
+    "skills": ["Java", "Spring Boot", "MySQL", "Backend Development"],
+    "rating": 4.8,
+    "finished_work": 76
+  },
+  {
+    "name": "Priya Das",
+    "image": "https://i.pravatar.cc/300?img=45",
+    "skills": ["Data Science", "Python", "SQL", "Power BI"],
+    "rating": 4.9,
+    "finished_work": 64
+  },
+  {
+    "name": "Shakil Ahmed",
+    "image": "https://i.pravatar.cc/300?img=19",
+    "skills": ["MERN Stack", "React", "Node.js", "MongoDB"],
+    "rating": 4.8,
+    "finished_work": 156
+  },
+  {
+    "name": "Faria Islam",
+    "image": "https://i.pravatar.cc/300?img=43",
+    "skills": ["Motion Design", "After Effects", "Premiere Pro", "Video Editing"],
+    "rating": 4.7,
+    "finished_work": 88
+  },
+  {
+    "name": "Zahid Hasan",
+    "image": "https://i.pravatar.cc/300?img=20",
+    "skills": ["AI Development", "Machine Learning", "Python", "NLP"],
+    "rating": 4.9,
+    "finished_work": 59
+  },
+  {
+    "name": "Nadia Islam",
+    "image": "https://i.pravatar.cc/300?img=46",
+    "skills": ["UX Research", "UI Design", "Figma", "Design Systems"],
+    "rating": 4.8,
+    "finished_work": 112
+  }
+]
