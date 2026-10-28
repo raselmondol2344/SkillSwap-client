@@ -49,7 +49,7 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            
+
 
 
 
@@ -59,6 +59,7 @@ export default function Navbar() {
                 className="text-slate-700 hover:text-blue-600 font-medium transition"
               >
                 Browse Task
+                
               </Link>
             </li>
 
