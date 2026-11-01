@@ -1,140 +1,140 @@
 [
   {
     "name": "Arif Hossain",
-    "image": "https://i.pravatar.cc/300?img=11",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["React", "Next.js", "JavaScript", "Tailwind CSS"],
     "rating": 4.9,
     "finished_work": 128
   },
   {
     "name": "Nusrat Jahan",
-    "image": "https://i.pravatar.cc/300?img=5",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["UI/UX Design", "Figma", "Adobe XD", "Photoshop"],
     "rating": 4.8,
     "finished_work": 96
   },
   {
     "name": "Tanvir Ahmed",
-    "image": "https://i.pravatar.cc/300?img=12",
+    "image": "https://images.unsplash.com/photo-1764103945182-7d324a311115?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Node.js", "Express.js", "MongoDB", "REST API"],
     "rating": 4.9,
     "finished_work": 154
   },
   {
     "name": "Sadia Rahman",
-    "image": "https://i.pravatar.cc/300?img=9",
+    "image": "https://images.unsplash.com/photo-1760543998147-117ae5649c5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Python", "Data Analysis", "Pandas", "NumPy"],
     "rating": 4.7,
     "finished_work": 82
   },
   {
     "name": "Fahim Hasan",
-    "image": "https://i.pravatar.cc/300?img=13",
+    "image": "https://images.unsplash.com/photo-1770510067230-1059f0776b3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Machine Learning", "Python", "Scikit-learn", "TensorFlow"],
     "rating": 4.9,
     "finished_work": 73
   },
   {
     "name": "Mim Akter",
-    "image": "https://i.pravatar.cc/300?img=47",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Graphic Design", "Logo Design", "Branding", "Illustrator"],
     "rating": 4.8,
     "finished_work": 117
   },
   {
     "name": "Rafiul Islam",
-    "image": "https://i.pravatar.cc/300?img=14",
+    "image": "https://images.unsplash.com/photo-1695927621677-ec96e048dce2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Vue.js", "JavaScript", "HTML", "CSS"],
     "rating": 4.6,
     "finished_work": 91
   },
   {
     "name": "Jannatul Ferdous",
-    "image": "https://i.pravatar.cc/300?img=44",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Content Writing", "SEO", "Blog Writing", "Copywriting"],
     "rating": 4.8,
     "finished_work": 143
   },
   {
     "name": "Mehedi Hasan",
-    "image": "https://i.pravatar.cc/300?img=15",
+    "image": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Python", "Deep Learning", "Computer Vision", "OpenCV"],
     "rating": 4.9,
     "finished_work": 68
   },
   {
     "name": "Tania Sultana",
-    "image": "https://i.pravatar.cc/300?img=48",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["UI Design", "Figma", "Web Design", "Prototyping"],
     "rating": 4.7,
     "finished_work": 105
   },
   {
     "name": "Sakib Rahman",
-    "image": "https://i.pravatar.cc/300?img=16",
+    "image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["WordPress", "PHP", "WooCommerce", "Elementor"],
     "rating": 4.6,
     "finished_work": 134
   },
   {
     "name": "Ayesha Siddika",
-    "image": "https://i.pravatar.cc/300?img=32",
+    "image": "https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Digital Marketing", "SEO", "Google Ads", "Social Media"],
     "rating": 4.8,
     "finished_work": 119
   },
   {
     "name": "Nayeem Hasan",
-    "image": "https://i.pravatar.cc/300?img=17",
+    "image": "https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["React", "TypeScript", "Next.js", "Firebase"],
     "rating": 4.9,
     "finished_work": 87
   },
   {
     "name": "Rumana Akter",
-    "image": "https://i.pravatar.cc/300?img=49",
+    "image": "https://images.unsplash.com/photo-1760552069633-c05f246a5d8c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Illustration", "Graphic Design", "Photoshop", "Canva"],
     "rating": 4.7,
     "finished_work": 98
   },
   {
     "name": "Hasan Mahmud",
-    "image": "https://i.pravatar.cc/300?img=18",
+    "image": "https://images.unsplash.com/photo-1584999734482-0361aecad844?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Java", "Spring Boot", "MySQL", "Backend Development"],
     "rating": 4.8,
     "finished_work": 76
   },
   {
     "name": "Priya Das",
-    "image": "https://i.pravatar.cc/300?img=45",
+    "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Data Science", "Python", "SQL", "Power BI"],
     "rating": 4.9,
     "finished_work": 64
   },
   {
     "name": "Shakil Ahmed",
-    "image": "https://i.pravatar.cc/300?img=19",
+    "image": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["MERN Stack", "React", "Node.js", "MongoDB"],
     "rating": 4.8,
     "finished_work": 156
   },
   {
     "name": "Faria Islam",
-    "image": "https://i.pravatar.cc/300?img=43",
+    "image": "https://images.unsplash.com/photo-1604072366595-e75dc92d6bdc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["Motion Design", "After Effects", "Premiere Pro", "Video Editing"],
     "rating": 4.7,
     "finished_work": 88
   },
   {
     "name": "Zahid Hasan",
-    "image": "https://i.pravatar.cc/300?img=20",
+    "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["AI Development", "Machine Learning", "Python", "NLP"],
     "rating": 4.9,
     "finished_work": 59
   },
   {
     "name": "Nadia Islam",
-    "image": "https://i.pravatar.cc/300?img=46",
+    "image": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     "skills": ["UX Research", "UI Design", "Figma", "Design Systems"],
     "rating": 4.8,
     "finished_work": 112
