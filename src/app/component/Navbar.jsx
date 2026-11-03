@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
+import { usePathname } from "next/navigation";
+import { Avatar } from "@heroui/react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +18,11 @@ export default function Navbar() {
     await authClient.signOut();
     setIsMenuOpen(false);
   };
+
+   const pathname = usePathname();
+  if (pathname.includes("dashbord")) {
+    return null;
+  }
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/90 shadow-sm backdrop-blur-md">
@@ -75,19 +82,12 @@ export default function Navbar() {
                   </Link>
                 </li>
 
-                {/* Pricing */}
-                <li>
-                  <Link
-                    href="/pricing"
-                    className="font-medium text-slate-700 transition hover:text-blue-600"
-                  >
-                    Pricing
-                  </Link>
-                </li>
+               
 
                 <li>
                   <Link
-                    href="/dashboard"
+                      href={`/dashbord/${user?.role}`}
+             
                     className="font-medium text-slate-700 transition hover:text-blue-600"
                   >
                     Dashboard
@@ -116,7 +116,7 @@ export default function Navbar() {
 
                 <li>
                   <Link
-                    href="/frelancer"
+                    href="/frelancers"
                     className="font-medium text-slate-700 transition hover:text-blue-600"
                   >
                     Browse Freelancer
@@ -131,13 +131,26 @@ export default function Navbar() {
 
             {/* Logout */}
             {user ? (
-              <Button
+
+            <div className="flex justify-between items-center gap-5">
+               <div>
+              <Avatar>
+                <Avatar.Image alt="John Doe" src={user?.image} />
+                 <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                 </Avatar>
+             </div>
+             <div>
+             <Button
                 onPress={handleSignout}
                 variant="danger"
                 className="border-slate-300 text-white hover:bg-slate-100 hover:text-red-500"
               >
                 Logout
               </Button>
+             </div>
+            </div>
+              
+              
             ) : (
               <>
                 {/* Login */}
@@ -233,7 +246,7 @@ export default function Navbar() {
                     {/* Browse Freelancer */}
                     <li>
                       <Link
-                        href="/frelancer"
+                        href="/frelancers"
                         onClick={() => setIsMenuOpen(false)}
                         className="block rounded-lg px-4 py-2.5 text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
                       >
@@ -241,27 +254,23 @@ export default function Navbar() {
                       </Link>
                     </li>
 
-                    {/* Pricing */}
-                    <li>
-                      <Link
-                        href="/pricing"
-                        onClick={() => setIsMenuOpen(false)}
-                        className="block rounded-lg px-4 py-2.5 text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
-                      >
-                        Pricing
-                      </Link>
-                    </li>
+                  
 
                     {/* Dashboard */}
                     <li>
                       <Link
-                        href="/dashboard"
+                       href={`/dashbord/${user?.role}`}
                         onClick={() => setIsMenuOpen(false)}
                         className="block rounded-lg px-4 py-2.5 text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
                       >
                         Dashboard
                       </Link>
                     </li>
+
+                     <Avatar>
+                                              <Avatar.Image alt="John Doe" src={user?.image} />
+                                              <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                                            </Avatar>
 
                     {/* Logout */}
                     <li>
@@ -313,33 +322,33 @@ export default function Navbar() {
               </ul>
 
               {/* Mobile Auth Buttons */}
-             {/* Mobile Auth Buttons */}
-{!user && (
-  <div className="mt-3 flex gap-2 border-t border-slate-200 pt-3">
-    <Link
-      href="/login"
-      className="flex-1"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      <Button
-        variant="bordered"
-        className="w-full border-blue-500 text-blue-600 hover:bg-blue-50"
-      >
-        Login
-      </Button>
-    </Link>
+            
+                    {!user && (
+                      <div className="mt-3 flex gap-2 border-t border-slate-200 pt-3">
+                        <Link
+                          href="/login"
+                          className="flex-1"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <Button
+                            variant="bordered"
+                            className="w-full border-blue-500 text-blue-600 hover:bg-blue-50"
+                          >
+                            Login
+                          </Button>
+                        </Link>
 
-    <Link
-      href="/signup"
-      className="flex-1"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      <Button className="w-full bg-blue-600 text-white hover:bg-blue-700">
-        Sign Up
-      </Button>
-    </Link>
-  </div>
-)}
+                        <Link
+                          href="/signup"
+                          className="flex-1"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          <Button className="w-full bg-blue-600 text-white hover:bg-blue-700">
+                            Sign Up
+                          </Button>
+                        </Link>
+                      </div>
+                    )}
             </div>
           </div>
         )}

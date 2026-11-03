@@ -5,7 +5,8 @@
     "category": "web development",
     "budget": "450",
     "deadline": "2026-11-15",
-    "details": "Need a responsive business website with Home, About, Services, Contact, and mobile-friendly design."
+    "details": "Need a responsive business website with Home, About, Services, Contact, and mobile-friendly design.",
+    "status": "open"
   },
   {
     "title": "Create a React Admin Dashboard",
@@ -13,7 +14,8 @@
     "category": "programming",
     "budget": "600",
     "deadline": "2026-11-20",
-    "details": "Need a React developer to build an admin dashboard with charts, tables, authentication, and responsive layout."
+    "details": "Need a React developer to build an admin dashboard with charts, tables, authentication, and responsive layout.",
+    "status": "open"
   },
   {
     "title": "Modern Logo Design for Startup",
@@ -21,7 +23,8 @@
     "category": "design",
     "budget": "120",
     "deadline": "2026-11-08",
-    "details": "Need a modern and professional logo for a technology startup with source files and multiple variations."
+    "details": "Need a modern and professional logo for a technology startup with source files and multiple variations.",
+    "status": "open"
   },
   {
     "title": "Analyze E-commerce Sales Dataset",
@@ -29,7 +32,8 @@
     "category": "data science",
     "budget": "300",
     "deadline": "2026-11-18",
-    "details": "Analyze an e-commerce sales dataset and provide useful insights, trends, visualizations, and recommendations."
+    "details": "Analyze an e-commerce sales dataset and provide useful insights, trends, visualizations, and recommendations.",
+    "status": "open"
   },
   {
     "title": "Build Customer Churn Prediction Model",
@@ -37,7 +41,8 @@
     "category": "machine learning",
     "budget": "550",
     "deadline": "2026-11-25",
-    "details": "Develop a machine learning model to predict customer churn using a provided customer dataset."
+    "details": "Develop a machine learning model to predict customer churn using a provided customer dataset.",
+    "status": "open"
   },
   {
     "title": "Create Landing Page with Next.js",
@@ -45,7 +50,8 @@
     "category": "web development",
     "budget": "250",
     "deadline": "2026-11-12",
-    "details": "Create a modern landing page using Next.js and Tailwind CSS with responsive design and smooth animations."
+    "details": "Create a modern landing page using Next.js and Tailwind CSS with responsive design and smooth animations.",
+    "status": "open"
   },
   {
     "title": "Python Automation Script",
@@ -53,7 +59,8 @@
     "category": "programming",
     "budget": "180",
     "deadline": "2026-11-10",
-    "details": "Need a Python script to automate repetitive file processing and data organization tasks."
+    "details": "Need a Python script to automate repetitive file processing and data organization tasks.",
+    "status": "open"
   },
   {
     "title": "Social Media Post Design",
@@ -61,7 +68,8 @@
     "category": "design",
     "budget": "150",
     "deadline": "2026-11-07",
-    "details": "Design 15 professional social media posts for a fashion brand with consistent branding."
+    "details": "Design 15 professional social media posts for a fashion brand with consistent branding.",
+    "status": "open"
   },
   {
     "title": "Data Cleaning and Visualization",
@@ -69,7 +77,8 @@
     "category": "data science",
     "budget": "220",
     "deadline": "2026-11-16",
-    "details": "Clean a CSV dataset, handle missing values, and create meaningful charts and visualizations."
+    "details": "Clean a CSV dataset, handle missing values, and create meaningful charts and visualizations.",
+    "status": "open"
   },
   {
     "title": "Image Classification Model",
@@ -77,7 +86,8 @@
     "category": "machine learning",
     "budget": "700",
     "deadline": "2026-12-01",
-    "details": "Build an image classification model using a provided dataset and provide training and evaluation results."
+    "details": "Build an image classification model using a provided dataset and provide training and evaluation results.",
+    "status": "open"
   },
   {
     "title": "Develop REST API with Node.js",
@@ -85,7 +95,8 @@
     "category": "programming",
     "budget": "400",
     "deadline": "2026-11-22",
-    "details": "Build a secure REST API using Node.js, Express, and MongoDB with authentication and CRUD operations."
+    "details": "Build a secure REST API using Node.js, Express, and MongoDB with authentication and CRUD operations.",
+    "status": "open"
   },
   {
     "title": "Portfolio Website Design",
@@ -93,7 +104,8 @@
     "category": "design",
     "budget": "200",
     "deadline": "2026-11-14",
-    "details": "Design a clean and creative portfolio website for a freelance designer."
+    "details": "Design a clean and creative portfolio website for a freelance designer.",
+    "status": "open"
   },
   {
     "title": "WordPress Business Website",
@@ -101,7 +113,8 @@
     "category": "web development",
     "budget": "350",
     "deadline": "2026-11-19",
-    "details": "Create a professional WordPress business website with custom sections and mobile responsiveness."
+    "details": "Create a professional WordPress business website with custom sections and mobile responsiveness.",
+    "status": "open"
   },
   {
     "title": "Sales Forecasting Project",
@@ -109,7 +122,8 @@
     "category": "data science",
     "budget": "450",
     "deadline": "2026-11-30",
-    "details": "Create a sales forecasting model from historical sales data and provide visual reports."
+    "details": "Create a sales forecasting model from historical sales data and provide visual reports.",
+    "status": "open"
   },
   {
     "title": "Spam Email Detection Model",
@@ -117,7 +131,8 @@
     "category": "machine learning",
     "budget": "350",
     "deadline": "2026-11-21",
-    "details": "Develop a machine learning model that can classify emails as spam or legitimate."
+    "details": "Develop a machine learning model that can classify emails as spam or legitimate.",
+    "status": "open"
   },
   {
     "title": "Fix React Application Bugs",
@@ -125,7 +140,8 @@
     "category": "programming",
     "budget": "150",
     "deadline": "2026-11-06",
-    "details": "Need an experienced React developer to identify and fix several UI and functionality bugs."
+    "details": "Need an experienced React developer to identify and fix several UI and functionality bugs.",
+    "status": "open"
   },
   {
     "title": "Restaurant Website Development",
@@ -133,7 +149,8 @@
     "category": "web development",
     "budget": "500",
     "deadline": "2026-11-28",
-    "details": "Build a modern restaurant website with menu, reservation, gallery, contact, and responsive design."
+    "details": "Build a modern restaurant website with menu, reservation, gallery, contact, and responsive design.",
+    "status": "open"
   },
   {
     "title": "Mobile App UI Design",
@@ -141,19 +158,17 @@
     "category": "design",
     "budget": "280",
     "deadline": "2026-11-17",
-    "details": "Design UI screens for a mobile productivity application using Figma."
+    "details": "Design UI screens for a mobile productivity application using Figma.",
+    "status": "open"
   },
-
-
-  
-
   {
     "title": "Customer Data Analysis",
     "client_name": "Omar Faruk",
     "category": "data science",
     "budget": "260",
     "deadline": "2026-11-23",
-    "details": "Analyze customer behavior data and identify important customer segments and purchasing patterns."
+    "details": "Analyze customer behavior data and identify important customer segments and purchasing patterns.",
+    "status": "open"
   },
   {
     "title": "House Price Prediction Model",
@@ -161,7 +176,8 @@
     "category": "machine learning",
     "budget": "500",
     "deadline": "2026-12-05",
-    "details": "Build a regression model to predict house prices using property features."
+    "details": "Build a regression model to predict house prices using property features.",
+    "status": "open"
   },
   {
     "title": "Next.js E-commerce Website",
@@ -169,7 +185,8 @@
     "category": "web development",
     "budget": "850",
     "deadline": "2026-12-10",
-    "details": "Develop an e-commerce website using Next.js with product listing, cart, authentication, and checkout."
+    "details": "Develop an e-commerce website using Next.js with product listing, cart, authentication, and checkout.",
+    "status": "open"
   },
   {
     "title": "Build Authentication System",
@@ -177,7 +194,8 @@
     "category": "programming",
     "budget": "300",
     "deadline": "2026-11-13",
-    "details": "Implement secure email and password authentication with Google login for a web application."
+    "details": "Implement secure email and password authentication with Google login for a web application.",
+    "status": "open"
   },
   {
     "title": "Brand Identity Design",
@@ -185,7 +203,8 @@
     "category": "design",
     "budget": "400",
     "deadline": "2026-11-29",
-    "details": "Create a complete brand identity including logo, colors, typography, and basic brand guidelines."
+    "details": "Create a complete brand identity including logo, colors, typography, and basic brand guidelines.",
+    "status": "open"
   },
   {
     "title": "Employee Performance Analysis",
@@ -193,7 +212,8 @@
     "category": "data science",
     "budget": "320",
     "deadline": "2026-11-27",
-    "details": "Analyze employee performance data and create a dashboard showing key performance indicators."
+    "details": "Analyze employee performance data and create a dashboard showing key performance indicators.",
+    "status": "open"
   },
   {
     "title": "Recommendation System",
@@ -201,7 +221,8 @@
     "category": "machine learning",
     "budget": "650",
     "deadline": "2026-12-08",
-    "details": "Develop a recommendation system for an online shopping platform using historical user behavior."
+    "details": "Develop a recommendation system for an online shopping platform using historical user behavior.",
+    "status": "open"
   },
   {
     "title": "Convert Figma Design to React",
@@ -209,7 +230,8 @@
     "category": "web development",
     "budget": "300",
     "deadline": "2026-11-11",
-    "details": "Convert provided Figma designs into a pixel-perfect responsive React website."
+    "details": "Convert provided Figma designs into a pixel-perfect responsive React website.",
+    "status": "open"
   },
   {
     "title": "Create Python Web Scraper",
@@ -217,7 +239,8 @@
     "category": "programming",
     "budget": "200",
     "deadline": "2026-11-09",
-    "details": "Build a Python web scraper to collect publicly available product information from multiple pages."
+    "details": "Build a Python web scraper to collect publicly available product information from multiple pages.",
+    "status": "open"
   },
   {
     "title": "YouTube Thumbnail Design",
@@ -225,7 +248,8 @@
     "category": "design",
     "budget": "100",
     "deadline": "2026-11-05",
-    "details": "Design 20 eye-catching YouTube thumbnails for a technology channel."
+    "details": "Design 20 eye-catching YouTube thumbnails for a technology channel.",
+    "status": "open"
   },
   {
     "title": "Business Data Dashboard",
@@ -233,7 +257,8 @@
     "category": "data science",
     "budget": "480",
     "deadline": "2026-12-02",
-    "details": "Create an interactive business dashboard with sales, revenue, customer, and product analytics."
+    "details": "Create an interactive business dashboard with sales, revenue, customer, and product analytics.",
+    "status": "open"
   },
   {
     "title": "Face Recognition Prototype",
@@ -241,7 +266,8 @@
     "category": "machine learning",
     "budget": "750",
     "deadline": "2026-12-12",
-    "details": "Create a prototype face recognition system using a suitable machine learning or computer vision approach."
+    "details": "Create a prototype face recognition system using a suitable machine learning or computer vision approach.",
+    "status": "open"
   },
   {
     "title": "Real Estate Website",
@@ -249,7 +275,8 @@
     "category": "web development",
     "budget": "650",
     "deadline": "2026-12-15",
-    "details": "Build a real estate website with property listings, search filters, property details, and contact forms."
+    "details": "Build a real estate website with property listings, search filters, property details, and contact forms.",
+    "status": "open"
   },
   {
     "title": "JavaScript Bug Fixing",
@@ -257,7 +284,8 @@
     "category": "programming",
     "budget": "130",
     "deadline": "2026-11-04",
-    "details": "Fix JavaScript errors and improve the functionality of an existing web application."
+    "details": "Fix JavaScript errors and improve the functionality of an existing web application.",
+    "status": "open"
   },
   {
     "title": "Website UI Redesign",
@@ -265,7 +293,8 @@
     "category": "design",
     "budget": "250",
     "deadline": "2026-11-24",
-    "details": "Redesign an existing website with a modern, clean, professional, and user-friendly interface."
+    "details": "Redesign an existing website with a modern, clean, professional, and user-friendly interface.",
+    "status": "open"
   },
   {
     "title": "Customer Segmentation Analysis",
@@ -273,7 +302,8 @@
     "category": "data science",
     "budget": "380",
     "deadline": "2026-12-03",
-    "details": "Perform customer segmentation using transaction data and provide actionable business insights."
+    "details": "Perform customer segmentation using transaction data and provide actionable business insights.",
+    "status": "open"
   },
   {
     "title": "Sentiment Analysis Project",
@@ -281,7 +311,8 @@
     "category": "machine learning",
     "budget": "420",
     "deadline": "2026-12-06",
-    "details": "Build a sentiment analysis model to classify customer reviews as positive, negative, or neutral."
+    "details": "Build a sentiment analysis model to classify customer reviews as positive, negative, or neutral.",
+    "status": "open"
   },
   {
     "title": "Online Course Platform",
@@ -289,7 +320,8 @@
     "category": "web development",
     "budget": "900",
     "deadline": "2026-12-20",
-    "details": "Develop an online course platform with course listing, instructor profiles, student enrollment, and dashboard."
+    "details": "Develop an online course platform with course listing, instructor profiles, student enrollment, and dashboard.",
+    "status": "open"
   },
   {
     "title": "Build REST API Integration",
@@ -297,7 +329,8 @@
     "category": "programming",
     "budget": "220",
     "deadline": "2026-11-26",
-    "details": "Integrate third-party REST APIs into an existing web application and handle errors properly."
+    "details": "Integrate third-party REST APIs into an existing web application and handle errors properly.",
+    "status": "open"
   },
   {
     "title": "Presentation Template Design",
@@ -305,7 +338,8 @@
     "category": "design",
     "budget": "140",
     "deadline": "2026-11-08",
-    "details": "Create a professional presentation template suitable for business meetings and client presentations."
+    "details": "Create a professional presentation template suitable for business meetings and client presentations.",
+    "status": "open"
   },
   {
     "title": "Predictive Analytics Report",
@@ -313,7 +347,8 @@
     "category": "data science",
     "budget": "500",
     "deadline": "2026-12-09",
-    "details": "Analyze historical business data and create a predictive analytics report with charts and recommendations."
+    "details": "Analyze historical business data and create a predictive analytics report with charts and recommendations.",
+    "status": "open"
   },
   {
     "title": "Fraud Detection Model",
@@ -321,7 +356,8 @@
     "category": "machine learning",
     "budget": "800",
     "deadline": "2026-12-18",
-    "details": "Develop a machine learning model to identify potentially fraudulent financial transactions."
+    "details": "Develop a machine learning model to identify potentially fraudulent financial transactions.",
+    "status": "open"
   },
   {
     "title": "Personal Portfolio Development",
@@ -329,7 +365,8 @@
     "category": "web development",
     "budget": "220",
     "deadline": "2026-11-15",
-    "details": "Create a responsive personal portfolio website with projects, skills, about, contact, and social links."
+    "details": "Create a responsive personal portfolio website with projects, skills, about, contact, and social links.",
+    "status": "open"
   },
   {
     "title": "Build Inventory Management System",
@@ -337,7 +374,8 @@
     "category": "programming",
     "budget": "700",
     "deadline": "2026-12-14",
-    "details": "Develop an inventory management system with product tracking, stock updates, reports, and user authentication."
+    "details": "Develop an inventory management system with product tracking, stock updates, reports, and user authentication.",
+    "status": "open"
   },
   {
     "title": "Restaurant Branding Package",
@@ -345,7 +383,8 @@
     "category": "design",
     "budget": "350",
     "deadline": "2026-11-30",
-    "details": "Create restaurant branding materials including logo, menu design, social media graphics, and color palette."
+    "details": "Create restaurant branding materials including logo, menu design, social media graphics, and color palette.",
+    "status": "open"
   },
   {
     "title": "Marketing Campaign Data Analysis",
@@ -353,7 +392,8 @@
     "category": "data science",
     "budget": "340",
     "deadline": "2026-12-04",
-    "details": "Analyze digital marketing campaign data and determine which campaigns provide the best return."
+    "details": "Analyze digital marketing campaign data and determine which campaigns provide the best return.",
+    "status": "open"
   },
   {
     "title": "Object Detection Model",
@@ -361,7 +401,8 @@
     "category": "machine learning",
     "budget": "900",
     "deadline": "2026-12-22",
-    "details": "Develop an object detection prototype for identifying specific objects in images."
+    "details": "Develop an object detection prototype for identifying specific objects in images.",
+    "status": "open"
   },
   {
     "title": "Blog Website Development",
@@ -369,7 +410,8 @@
     "category": "web development",
     "budget": "400",
     "deadline": "2026-11-27",
-    "details": "Build a modern blog website with categories, search, author profiles, comments, and responsive design."
+    "details": "Build a modern blog website with categories, search, author profiles, comments, and responsive design.",
+    "status": "open"
   },
   {
     "title": "Database Optimization",
@@ -377,7 +419,8 @@
     "category": "programming",
     "budget": "280",
     "deadline": "2026-11-18",
-    "details": "Optimize MongoDB database queries and improve the performance of an existing Node.js application."
+    "details": "Optimize MongoDB database queries and improve the performance of an existing Node.js application.",
+    "status": "open"
   },
   {
     "title": "Mobile App Branding Design",
@@ -385,7 +428,8 @@
     "category": "design",
     "budget": "240",
     "deadline": "2026-11-20",
-    "details": "Design a complete visual identity for a new mobile application including logo, colors, and app icons."
+    "details": "Design a complete visual identity for a new mobile application including logo, colors, and app icons.",
+    "status": "open"
   },
   {
     "title": "Data Visualization Dashboard",
@@ -393,7 +437,8 @@
     "category": "data science",
     "budget": "450",
     "deadline": "2026-12-11",
-    "details": "Create an interactive data visualization dashboard with charts, filters, and important business metrics."
+    "details": "Create an interactive data visualization dashboard with charts, filters, and important business metrics.",
+    "status": "open"
   },
   {
     "title": "Text Classification System",
@@ -401,6 +446,7 @@
     "category": "machine learning",
     "budget": "480",
     "deadline": "2026-12-16",
-    "details": "Build a text classification model that can automatically categorize documents into predefined categories."
+    "details": "Build a text classification model that can automatically categorize documents into predefined categories.",
+    "status": "open"
   }
 ]

@@ -58,18 +58,16 @@ export default function TaskCard({ task }) {
       {/* Buttons */}
       <Card.Footer className="mt-auto flex flex-row gap-2.5 border-t border-blue-100 bg-slate-50/80 p-4 sm:gap-3 sm:p-5">
 
-        <Link href={`/task/${_id}`} className="w-1/2">
+        <Link href={`/task/${_id}`} className="w-full">
           <Button
             variant="secondary"
-            className="w-full rounded-xl border border-blue-200 bg-white text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-50"
+            className="w-full rounded-xl border border-none bg-blue-500 text-sm font-semibold text-white transition-colors hover:bg-blue-500"
           >
             Details
           </Button>
         </Link>
 
-        <Button className="w-1/2 rounded-xl bg-blue-600 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700">
-          Apply
-        </Button>
+       
 
       </Card.Footer>
     </Card>

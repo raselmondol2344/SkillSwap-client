@@ -7,7 +7,7 @@ export default async function HighPayingTask() {
   const tasks = await getHighPriceTask();
 
   return (
-            <div>
+            <div className="bg-slate-50">
             <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
             Top Paying <span className="text-blue-600">Tasks</span>
