@@ -36,6 +36,7 @@ export function DeleteTaskAlert({ task, onDelete }) {
       >
         Delete
       </Button>
+      
 
       <AlertDialog.Backdrop>
         <AlertDialog.Container>
