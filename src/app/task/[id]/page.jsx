@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Button, Card } from "@heroui/react";
 import { CircleDollar } from "@gravity-ui/icons";
+import ApplyTaskButton from "@/app/component/ApplyTaskButton";
 
 export const instant = false;
 
@@ -112,11 +113,7 @@ export default async function TaskDetailsPage({ params }) {
                 </Button>
               </Link>
 
-              <Link href={`/task/${_id}/apply`} className="w-full sm:w-1/2">
-                <Button className="w-full bg-blue-600 py-5 font-semibold text-white shadow-sm hover:bg-blue-700">
-                  Apply for this Task
-                </Button>
-              </Link>
+             <ApplyTaskButton taskId={_id.toString()} />
 
             </div>
 
