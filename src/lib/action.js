@@ -1,6 +1,6 @@
 
 //all task
-const BACKEND_URL = process.env.BACKEND_URL;
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export const getTask = async () => {
   const res = await fetch(`${BACKEND_URL}/task`);
@@ -50,3 +50,13 @@ export const getTopRattingFreelancer = async () => {
 };
 
 
+// my-proposal
+export const getMyProposals = async (userId) => {
+  const res = await fetch(`${BACKEND_URL}/my-proposals/${userId}`);
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch my proposals");
+  }
+
+  return res.json();
+};
