@@ -60,3 +60,40 @@ export const getMyProposals = async (userId) => {
 
   return res.json();
 };
+
+
+// manage proposals
+export const getManageProposals = async (clientId) => {
+  const res = await fetch(
+    `${BACKEND_URL}/manage-proposals/${clientId}`
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch manage proposals");
+  }
+
+  return res.json();
+};
+
+// client reject api fetch
+
+export const rejectProposal = async (taskId, freelancerId) => {
+  const res = await fetch(
+    `${BACKEND_URL}/task/${taskId}/reject`,
+    {
+      method: "PATCH",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ freelancerId }),
+    }
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to reject proposal");
+  }
+
+  return res.json();
+};
+
+
