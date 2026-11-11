@@ -11,7 +11,7 @@ export default  function ConditionBtn() {
            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-9">
                 {user?.role === "client" ? (
                   <Link
-                    href="/post-task"
+                    href="/dashbord/client/post-task"
                     className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-blue-600 text-white font-semibold shadow-lg shadow-blue-200 hover:bg-blue-700 hover:-translate-y-1 transition-all duration-300"
                   >
                     <FaBriefcase />

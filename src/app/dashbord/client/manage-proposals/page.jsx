@@ -4,6 +4,7 @@ import { RejectProposalAlert } from "@/app/component/RejectProposalAlert";
 import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import { getManageProposals } from "@/lib/action";
+import { Button } from "@heroui/react";
 
 export default function ManageProposalsPage() {
   const { data: session } = authClient.useSession();
@@ -138,14 +139,37 @@ export default function ManageProposalsPage() {
 
                   {/* Actions */}
                   <div className="flex gap-2 border-t border-gray-100 pt-3">
-                    <button
-                      type="button"
-                      disabled
-                      title="Payment action API is not connected yet"
-                      className="flex-1 cursor-not-allowed rounded-lg bg-green-100 px-3 py-2 text-sm font-semibold text-green-700 opacity-70"
-                    >
-                      Pay
-                    </button>
+                    <form action={"/api/payment"} method="POST">
+                        <input
+                              type="hidden"
+                              name="budget"
+                              defaultValue={proposal.budget}
+                            />
+
+                            <input
+                              type="hidden"
+                              name="title"
+                              defaultValue={proposal.title}
+                            />
+
+                            <input
+                              type="hidden"
+                              name="taskId"
+                              defaultValue={proposal.taskId}
+                            />
+
+                            <input
+                              type="hidden"
+                              name="freelancerId"
+                              defaultValue={proposal.freelancerId}
+                            />
+                      <button
+                        type="button"
+                        className="flex-1 rounded-lg bg-green-100 px-3 py-2 text-sm font-semibold text-green-700 hover:bg-green-200"
+                      >
+                        Pay
+                      </button>
+                    </form>
 
                     <RejectProposalAlert
                       taskId={proposal.taskId}
@@ -192,20 +216,45 @@ export default function ManageProposalsPage() {
 
                       <td className="px-5 py-4">
                         <div className="flex gap-2">
-                          <button
-                            type="button"
-                            disabled
-                            title="Payment action API is not connected yet"
-                            className="cursor-not-allowed rounded-lg bg-green-100 px-4 py-2 font-semibold text-green-700 opacity-70"
-                          >
-                            Pay
-                          </button>
+                          <form action={"/api/payment"} method="POST">
+                            <input
+                              type="hidden"
+                              name="budget"
+                              defaultValue={proposal.budget}
+                            />
 
-                         <RejectProposalAlert
-                      taskId={proposal.taskId}
-                      freelancerId={proposal.freelancerId}
-                      onReject={handleReject}
-                    />
+                            <input
+                              type="hidden"
+                              name="title"
+                              defaultValue={proposal.title}
+                            />
+
+                            <input
+                              type="hidden"
+                              name="taskId"
+                              defaultValue={proposal.taskId}
+                            />
+
+                            <input
+                              type="hidden"
+                              name="freelancerId"
+                              defaultValue={proposal.freelancerId}
+                            />
+
+                            <Button
+                              type="submit"
+                              className="rounded-lg bg-green-100 px-4 py-2 font-semibold text-green-700 hover:bg-green-200"
+                            >
+                              Pay
+                            </Button>
+
+                          </form>
+
+                          <RejectProposalAlert
+                            taskId={proposal.taskId}
+                            freelancerId={proposal.freelancerId}
+                            onReject={handleReject}
+                          />
                         </div>
                       </td>
                     </tr>
