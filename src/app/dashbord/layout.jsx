@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
           onClose={() => setIsOpen(false)}
         />
 
+        
+
         {/* Main Content */}
         <main className="min-w-0 flex-1">
 
