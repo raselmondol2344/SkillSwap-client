@@ -1,3 +1,4 @@
+
 export const imageUploader = async (image) => {
   const formData = new FormData();
   formData.append("image", image);
@@ -14,8 +15,10 @@ export const imageUploader = async (image) => {
 
   console.log("ImgBB Response:", data);
 
-  if (!res.ok) {
-    throw new Error(data.error?.message || "Image upload failed");
+  if (!res.ok || !data.success) {
+    throw new Error(
+      data.error?.message || "Image upload failed"
+    );
   }
 
   return data.data;
