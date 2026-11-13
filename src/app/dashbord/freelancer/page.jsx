@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
+import FreelancerOverviewChart from "@/app/component/FreelancerOverviewChart";
 
 export default function FreelancerOverview() {
   const { data: session, isPending } = authClient.useSession();
@@ -106,7 +107,8 @@ export default function FreelancerOverview() {
   };
 
   return (
-    <div className="p-4 sm:p-5 lg:p-6">
+    <div>
+      <div className="p-4 sm:p-5 lg:p-6">
 
       {/*
       <div className="mb-5">
@@ -142,6 +144,9 @@ export default function FreelancerOverview() {
           </div>
         ))}
       </div>
+    </div>
+
+   <div> <FreelancerOverviewChart overview={overview} /></div>
     </div>
   );
 }
