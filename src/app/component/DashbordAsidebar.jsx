@@ -25,7 +25,7 @@ export default function DashbordAsidebar({ isOpen, onClose }) {
       { title: "Browse Tasks", href: "/dashbord/freelancer/browse-task" },
       { title: "My Proposals", href: "/dashbord/freelancer/my-proposals" },
       { title: "Active Projects", href: "/dashbord/freelancer/active-projects" },
-      { title: "Profile", href: "/dashbord/freelancer/profile" },
+      { title: "Profile", href: "/dashbord/freelancer/freelancer-profile" },
     ],
 
     admin: [
