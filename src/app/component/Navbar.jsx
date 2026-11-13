@@ -75,7 +75,7 @@ export default function Navbar() {
 
                 <li>
                   <Link
-                    href="/frelancer"
+                    href="/frelancers"
                     className="font-medium text-slate-700 transition hover:text-blue-600"
                   >
                     Browse Freelancer
@@ -310,7 +310,7 @@ export default function Navbar() {
                     {/* Browse Freelancer */}
                     <li>
                       <Link
-                        href="/frelancer"
+                        href="/frelancers"
                         onClick={() => setIsMenuOpen(false)}
                         className="block rounded-lg px-4 py-2.5 text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
                       >
