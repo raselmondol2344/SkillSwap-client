@@ -1,9 +1,13 @@
-
-//all task
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-export const getTask = async () => {
-  const res = await fetch(`${BACKEND_URL}/task`);
+// all task
+export const getTask = async (page = 1, limit = 10) => {
+  const res = await fetch(
+    `${BACKEND_URL}/task?page=${page}&limit=${limit}`,
+    {
+      cache: "no-store",
+    }
+  );
 
   if (!res.ok) {
     throw new Error("Failed to fetch tasks");
@@ -11,6 +15,13 @@ export const getTask = async () => {
 
   return res.json();
 };
+
+
+
+
+
+
+
 
 // high paying task
 export const getHighPriceTask = async () => {
