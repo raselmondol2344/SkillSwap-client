@@ -1,9 +1,13 @@
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 // all task
-export const getTask = async (page = 1, limit = 10) => {
+export const getTask = async (page = 1, limit = 10, searchParams) => {
+  const searchQuery = await searchParams;
+
+  const searchText = searchQuery.search || "";
+
   const res = await fetch(
-    `${BACKEND_URL}/task?page=${page}&limit=${limit}`,
+    `${BACKEND_URL}/task?page=${page}&limit=${limit}&search=${encodeURIComponent(searchText)}`,
     {
       cache: "no-store",
     }
@@ -15,7 +19,6 @@ export const getTask = async (page = 1, limit = 10) => {
 
   return res.json();
 };
-
 
 
 

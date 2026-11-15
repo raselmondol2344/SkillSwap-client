@@ -15,6 +15,7 @@ export default function DashbordNavbar({ onMenuClick }) {
 
   const handleSignOut = async () => {
     await authClient.signOut();
+    
   };
 
   return (
