@@ -1,11 +1,14 @@
+import { getTokenServer } from "./getTokenServer";
+
 // all task
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-export const getTask = async (
+export const  getTask = async (
   page = 1,
   limit = 8,
   searchParams = {}
 ) => {
+   const token = await getTokenServer();
   const searchQuery = await searchParams;
 
   const searchText = searchQuery?.search || "";
@@ -14,6 +17,9 @@ export const getTask = async (
   const res = await fetch(
     `${BACKEND_URL}/task?page=${page}&limit=${limit}&search=${encodeURIComponent(searchText)}&category=${encodeURIComponent(category)}`,
     {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
       cache: "no-store",
     }
   );
