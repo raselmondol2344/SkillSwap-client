@@ -17,7 +17,7 @@ export default function DashbordAsidebar({ isOpen, onClose }) {
       { title: "Post a Task", href: "/dashbord/client/post-task" },
       { title: "My Tasks", href: "/dashbord/client/my-tasks" },
       { title: "Manage Proposals", href: "/dashbord/client/manage-proposals" },
-      { title: "Profile", href: "/dashbord/client/client-profile" },
+      { title: "Profile", href: "/dashbord/client/profile" },
     ],
 
     freelancer: [
@@ -25,13 +25,14 @@ export default function DashbordAsidebar({ isOpen, onClose }) {
       { title: "Browse Tasks", href: "/dashbord/freelancer/browse-task" },
       { title: "My Proposals", href: "/dashbord/freelancer/my-proposals" },
       { title: "Active Projects", href: "/dashbord/freelancer/active-projects" },
-      { title: "Profile", href: "/dashbord/freelancer/freelancer-profile" },
+      { title: "Profile", href: "/dashbord/freelancer/profile" },
     ],
 
     admin: [
       { title: "Overview", href: "/dashbord/admin" },
       { title: "Manage Users", href: "/dashbord/admin/manage-users" },
       { title: "Manage Tasks", href: "/dashbord/admin/manage-tasks" },
+      { title: "Profile", href: "/dashbord/admin/profile" },
     ],
   };
 

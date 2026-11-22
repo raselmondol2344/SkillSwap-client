@@ -1,6 +1,7 @@
 "use client"
 import { authClient } from "@/lib/auth-client";
 import { toast } from "react-toastify";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function AddTask() {
   const { data: session } = authClient.useSession();
@@ -19,11 +20,11 @@ export default function AddTask() {
                     client_id: user?.id,
                   };
 
-                  console.log(taskData);
+                 // console.log(taskData);
 
 
   
-      const res = await fetch("http://localhost:8000/task", {
+      const res = await fetch(`${BACKEND_URL}/task`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

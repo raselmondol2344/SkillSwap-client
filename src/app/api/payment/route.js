@@ -73,7 +73,7 @@ export async function POST(request) {
     return NextResponse.redirect(session.url, 303);
 
   } catch (error) {
-    console.log(error);
+    //console.log(error);
 
     return NextResponse.json(
       { error: error.message },

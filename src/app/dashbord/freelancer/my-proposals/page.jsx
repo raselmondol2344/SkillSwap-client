@@ -18,10 +18,10 @@ export default function MyProposalsPage() {
     const fetchProposals = async () => {
       try {
         const data = await getMyProposals(user.id);
-        console.log("My Proposals Data:", data);
+        //console.log("My Proposals Data:", data);
         setProposals(data);
       } catch (error) {
-        console.log(error);
+       // console.log(error);
       } finally {
         setLoading(false);
       }

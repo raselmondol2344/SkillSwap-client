@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
  export const instant = false;
 
+ const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default async function MyTaskPage() {
   const session = await auth.api.getSession({
     headers: await headers(),
@@ -16,7 +18,7 @@ export default async function MyTaskPage() {
   }
 
   const res = await fetch(
-    `http://localhost:8000/client-tasks/${user.id}`,
+    `${BACKEND_URL}/client-tasks/${user.id}`,
     {
       cache: "no-store",
     }

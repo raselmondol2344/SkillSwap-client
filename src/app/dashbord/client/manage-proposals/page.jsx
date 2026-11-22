@@ -3,7 +3,10 @@ import { RejectProposalAlert } from "@/app/component/RejectProposalAlert";
 
 import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
-import { getManageProposals } from "@/lib/action";
+import {
+  getManageProposals,
+  
+} from "@/lib/action";
 import { Button } from "@heroui/react";
 
 export default function ManageProposalsPage() {
@@ -36,7 +39,7 @@ export default function ManageProposalsPage() {
         const data = await getManageProposals(user.id);
         setProposals(data);
       } catch (error) {
-        console.log(error);
+        //console.log(error);
       } finally {
         setLoading(false);
       }

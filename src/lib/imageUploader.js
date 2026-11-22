@@ -13,7 +13,7 @@ export const imageUploader = async (image) => {
 
   const data = await res.json();
 
-  console.log("ImgBB Response:", data);
+  //console.log("ImgBB Response:", data);
 
   if (!res.ok || !data.success) {
     throw new Error(

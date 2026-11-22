@@ -7,16 +7,21 @@ import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import { usePathname } from "next/navigation";
 import { Avatar } from "@heroui/react";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const { data: session } = authClient.useSession();
   const user = session?.user;
+  const profilePath = `/dashbord/${user?.role}/profile`;
 
+
+  const router = useRouter();
   const handleSignout = async () => {
     await authClient.signOut();
     setIsMenuOpen(false);
+     router.push("/");
   };
 
    const pathname = usePathname();
@@ -134,10 +139,12 @@ export default function Navbar() {
 
             <div className="flex justify-between items-center gap-5">
                <div>
+             <Link href={profilePath}>
               <Avatar>
                 <Avatar.Image alt="John Doe" src={user?.image} />
                  <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
                  </Avatar>
+             </Link>
              </div>
              <div>
              <Button
@@ -267,11 +274,13 @@ export default function Navbar() {
                       </Link>
                     </li>
 
+                   <Link href={profilePath}>
                      <Avatar>
-                                              <Avatar.Image alt="John Doe" src={user?.image} />
-                                              <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
-                                            </Avatar>
+                        <Avatar.Image alt="John Doe" src={user?.image} />
+                          <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                          </Avatar>
 
+                   </Link>
                     {/* Logout */}
                     <li>
                       <Button

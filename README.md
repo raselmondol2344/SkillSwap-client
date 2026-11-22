@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SkillSwap – Freelancing Marketplace Platform
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+SkillSwap is a freelancing marketplace platform that connects clients with skilled freelancers. It provides a simple and user-friendly environment where clients can post projects and hire freelancers, while freelancers can find suitable tasks and submit proposals.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Freelancer Features
+- Browse and explore available tasks.
+- Search for tasks using keywords.
+- Filter tasks by category and other criteria.
+- View detailed task information.
+- Submit proposals for suitable tasks.
+- Track submitted proposals and their status.
+- Manage freelancer profiles.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Client Features
+- Post new tasks with project details and budgets.
+- View and manage posted tasks.
+- Update and edit existing tasks.
+- Delete tasks when necessary.
+- View proposals submitted by freelancers.
+- Accept or reject freelancer proposals.
+- Make payments to freelancers.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+- HeroUI
 
-## Learn More
+### Backend
+- Node.js
+- Express.js
 
-To learn more about Next.js, take a look at the following resources:
+### Database
+- MongoDB
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Authentication & Security
+- Better Auth
+- JWT (JSON Web Token)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Image Hosting
+- ImgBB
 
-## Deploy on Vercel
+### Deployment
+- Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Development Tools
+- VS Code
+- Git
+- GitHub
+- npm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Main Goal
+
+The main goal of SkillSwap is to make freelancing easier by providing a platform where clients can find the right talent and freelancers can discover opportunities, submit proposals, and grow their careers.
+

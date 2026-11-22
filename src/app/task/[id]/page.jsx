@@ -4,12 +4,14 @@ import { Button, Card } from "@heroui/react";
 import { CircleDollar } from "@gravity-ui/icons";
 import ApplyTaskButton from "@/app/component/ApplyTaskButton";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export const instant = false;
 
 export default async function TaskDetailsPage({ params }) {
   const { id } = await params;
 
-  const res = await fetch(`http://localhost:8000/task/${id}`);
+  const res = await fetch(`${BACKEND_URL}/task/${id}`);
   const task = await res.json();
 
   const {

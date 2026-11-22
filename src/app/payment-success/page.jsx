@@ -42,7 +42,7 @@ async function SuccessContent({ searchParams }) {
       session_id,
     });
 
-    console.log("Payment Result:", pay_data);
+    //console.log("Payment Result:", pay_data);
 
     if (!pay_data?.success) {
       throw new Error(

@@ -1,8 +1,18 @@
-import { getFreelancer } from "@/lib/action";
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
+import { getFreelancer } from "@/lib/server-api";
 import FreelancerCard from "./FreelancerCard";
 
-
 export default async function Freelancerlist() {
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
+
+  if (!session) {
+    redirect("/login");
+  }
+
   const freelancers = await getFreelancer();
 
   return (
@@ -13,3 +23,4 @@ export default async function Freelancerlist() {
     </div>
   );
 }
+

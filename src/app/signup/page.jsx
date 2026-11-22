@@ -27,7 +27,7 @@ export default function SignUppage() {
     const formData = new FormData(e.currentTarget);
     const user = Object.fromEntries(formData.entries());
 
-    console.log(user);
+    //console.log(user);
 
     const image = await imageUploader(user.image);
 
@@ -40,8 +40,8 @@ export default function SignUppage() {
       plan: "free",
     });
 
-    console.log(data);
-    console.log(error);
+    //console.log(data);
+    //console.log(error);
 
     if (data) {
       toast.success("Registration successful!");

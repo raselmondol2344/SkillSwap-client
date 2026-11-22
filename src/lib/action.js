@@ -1,44 +1,12 @@
-import { getTokenServer } from "./getTokenServer";
+import { authClient } from "./auth-client";
 
-// all task
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-export const  getTask = async (
-  page = 1,
-  limit = 8,
-  searchParams = {}
-) => {
-   const token = await getTokenServer();
-  const searchQuery = await searchParams;
-
-  const searchText = searchQuery?.search || "";
-  const category = searchQuery?.category || "";
-
-  const res = await fetch(
-    `${BACKEND_URL}/task?page=${page}&limit=${limit}&search=${encodeURIComponent(searchText)}&category=${encodeURIComponent(category)}`,
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      cache: "no-store",
-    }
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch tasks");
-  }
-
-  return res.json();
-};
-
-
-
-
-
-
-// high paying task
+// High paying task
 export const getHighPriceTask = async () => {
-  const res = await fetch(`${BACKEND_URL}/task/high-price`);
+  const res = await fetch(`${BACKEND_URL}/task/high-price`, {
+    cache: "no-store",
+  });
 
   if (!res.ok) {
     throw new Error("Failed to fetch high price tasks");
@@ -48,23 +16,14 @@ export const getHighPriceTask = async () => {
 };
 
 
- 
-
-// all  freelancer
-export const getFreelancer = async () => {
-  const res = await fetch(`${BACKEND_URL}/freelancer`);
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch tasks");
-  }
-
-  return res.json(); 
-};
-
-
-// high rating freelancer
+// High rating freelancer
 export const getTopRattingFreelancer = async () => {
-  const res = await fetch(`${BACKEND_URL}/freelancer/top-freelancers`);
+  const res = await fetch(
+    `${BACKEND_URL}/freelancer/top-freelancers`,
+    {
+      cache: "no-store",
+    }
+  );
 
   if (!res.ok) {
     throw new Error("Failed to fetch top freelancer");
@@ -74,9 +33,14 @@ export const getTopRattingFreelancer = async () => {
 };
 
 
-// my-proposal
+// My proposals
 export const getMyProposals = async (userId) => {
-  const res = await fetch(`${BACKEND_URL}/my-proposals/${userId}`);
+  const res = await fetch(
+    `${BACKEND_URL}/my-proposals/${userId}`,
+    {
+      cache: "no-store",
+    }
+  );
 
   if (!res.ok) {
     throw new Error("Failed to fetch my proposals");
@@ -86,10 +50,22 @@ export const getMyProposals = async (userId) => {
 };
 
 
-// manage proposals
+// Manage proposals
 export const getManageProposals = async (clientId) => {
+  const { data, error } = await authClient.token();
+
+  if (error || !data?.token) {
+    throw new Error("Unauthorized");
+  }
+
   const res = await fetch(
-    `${BACKEND_URL}/manage-proposals/${clientId}`
+    `${BACKEND_URL}/manage-proposals/${clientId}`,
+    {
+      headers: {
+        Authorization: `Bearer ${data.token}`,
+      },
+      cache: "no-store",
+    }
   );
 
   if (!res.ok) {
@@ -99,8 +75,8 @@ export const getManageProposals = async (clientId) => {
   return res.json();
 };
 
-// client reject api fetch
 
+// Reject proposal
 export const rejectProposal = async (taskId, freelancerId) => {
   const res = await fetch(
     `${BACKEND_URL}/task/${taskId}/reject`,
@@ -119,5 +95,3 @@ export const rejectProposal = async (taskId, freelancerId) => {
 
   return res.json();
 };
-
-

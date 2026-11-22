@@ -4,6 +4,8 @@
 import { useEffect, useState } from "react";
 import AdminOverviewChart from "@/app/component/AdminOverviewChart";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function AdminOverview() {
   const [overview, setOverview] = useState({
     totalUsers: 0,
@@ -17,14 +19,14 @@ export default function AdminOverview() {
   useEffect(() => {
     const fetchOverview = async () => {
       try {
-        const res = await fetch("http://localhost:8000/admin-overview");
+        const res = await fetch(`${BACKEND_URL}/admin-overview`);
         const data = await res.json();
 
         if (res.ok) {
           setOverview(data);
         }
       } catch (error) {
-        console.log(error);
+       // console.log(error);
       } finally {
         setLoading(false);
       }

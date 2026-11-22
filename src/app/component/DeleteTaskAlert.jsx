@@ -2,12 +2,14 @@
 
 import { AlertDialog, Button } from "@heroui/react";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export function DeleteTaskAlert({ task, onDelete }) {
   const { _id, title } = task;
 
   const handleDelete = async () => {
     try {
-      const res = await fetch(`http://localhost:8000/task/${_id}`, {
+      const res = await fetch(`${BACKEND_URL}/task/${_id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",
@@ -19,7 +21,7 @@ export function DeleteTaskAlert({ task, onDelete }) {
       if (res.ok && data.deletedCount > 0) {
         onDelete(_id);
       } else {
-        console.log(data);
+        //console.log(data);
         alert("Task delete failed");
       }
     } catch (error) {

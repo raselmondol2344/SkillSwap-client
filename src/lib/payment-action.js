@@ -73,7 +73,7 @@ export const payment = async ({ session_id }) => {
     };
 
   } catch (error) {
-    console.log("Payment Action Error:", error);
+    //console.log("Payment Action Error:", error);
 
     return {
       success: false,

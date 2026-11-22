@@ -8,15 +8,19 @@ import { BiLogOut } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 import { MdDashboard } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
+import { useRouter } from "next/navigation";
 
 export default function DashbordNavbar({ onMenuClick }) {
   const { data: session } = authClient.useSession();
   const user = session?.user;
 
+
+  const router = useRouter();
+
   const handleSignOut = async () => {
-    await authClient.signOut();
-    
-  };
+  await authClient.signOut();
+  router.push("/login");
+};
 
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-blue-100 bg-white px-3 sm:h-20 sm:px-6">

@@ -1,5 +1,3 @@
-
-
 import { getHighPriceTask } from "@/lib/action";
 import TaskCard from "./TaskCard";
 

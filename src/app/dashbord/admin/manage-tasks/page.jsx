@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import DeleteTaskModalAdmin from "@/app/component/DeleteTaskModalAdmin";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function ManageTasks() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -11,14 +13,14 @@ export default function ManageTasks() {
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const res = await fetch("http://localhost:8000/tasks");
+        const res = await fetch(`${BACKEND_URL}/tasks`);
         const data = await res.json();
 
         if (res.ok) {
           setTasks(data);
         }
       } catch (error) {
-        console.log(error);
+       // console.log(error);
       } finally {
         setLoading(false);
       }
@@ -30,7 +32,7 @@ export default function ManageTasks() {
   // Delete Task
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:8000/task/${id}`, {
+      const res = await fetch(`${BACKEND_URL}/task/${id}`, {
         method: "DELETE",
       });
 
@@ -46,7 +48,7 @@ export default function ManageTasks() {
         alert(data.message);
       }
     } catch (error) {
-      console.log(error);
+      //console.log(error);
     }
   };
 

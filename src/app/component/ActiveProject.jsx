@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function ActiveProject() {
   const { data: session } = authClient.useSession();
@@ -36,7 +36,7 @@ export default function ActiveProject() {
 
         setTasks(data);
       } catch (error) {
-        console.log(error);
+       // console.log(error);
       } finally {
         setLoading(false);
       }

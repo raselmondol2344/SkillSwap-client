@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import ClientOverviewChart from "@/app/component/ClientOverviewChart";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function ClientOverview() {
   const { data: session } = authClient.useSession();
 
@@ -30,7 +32,7 @@ export default function ClientOverview() {
         setError("");
 
         const res = await fetch(
-          `http://localhost:8000/client-overview/${user.id}`
+          `${BACKEND_URL}/client-overview/${user.id}`
         );
 
         if (!res.ok) {

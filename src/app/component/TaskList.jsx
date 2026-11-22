@@ -1,5 +1,4 @@
-
-import { getTask } from "@/lib/action";
+import { getTask } from "@/lib/server-api";
 import TaskCard from "../component/TaskCard";
 import TaskPagination from "./TaskPagination";
 import CategoryFilter from "./CategoryFilter";
@@ -9,7 +8,7 @@ import { Button, Input } from "@heroui/react";
 export default async function TaskList({ searchParams }) {
   const searchQuery = await searchParams;
 
-  const page = Number(searchQuery.page) || 1;
+  const page = Number(searchQuery?.page) || 1;
   const limit = 8;
 
   const tasks = await getTask(page, limit, searchQuery);
@@ -23,17 +22,17 @@ export default async function TaskList({ searchParams }) {
         {/* Category Filter */}
         <div className="w-full lg:flex-1 overflow-x-auto">
           <CategoryFilter
-            selectedCategory={searchQuery.category || "all"}
+            selectedCategory={searchQuery?.category || "all"}
           />
         </div>
 
         {/* Search Input */}
         <div className="w-full lg:max-w-sm">
-          <form action="/task" className="flex items-center gap-2">
+          <form action="" className="flex items-center gap-2">
             <Input
               name="search"
               placeholder="Search task..."
-              defaultValue={searchQuery.search || ""}
+              defaultValue={searchQuery?.search || ""}
               className="flex-1 min-w-0"
             />
 
@@ -61,6 +60,7 @@ export default async function TaskList({ searchParams }) {
           <h3 className="text-xl font-semibold text-gray-700">
             No Tasks Found!
           </h3>
+
           <p className="text-gray-500 mt-2">
             Try another search or category.
           </p>

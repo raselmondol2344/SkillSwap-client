@@ -4,6 +4,7 @@
 import { useState } from "react";
 import { Button } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function ApplyTaskButton({ taskId }) {
   const { data: session } = authClient.useSession();
@@ -30,7 +31,7 @@ export default function ApplyTaskButton({ taskId }) {
       setMessage("");
 
       const res = await fetch(
-        `http://localhost:8000/task/${taskId}/apply`,
+        `${BACKEND_URL}/task/${taskId}/apply`,
         {
           method: "PATCH",
           headers: {

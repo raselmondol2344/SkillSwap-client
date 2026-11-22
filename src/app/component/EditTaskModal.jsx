@@ -17,6 +17,8 @@ import {
 import { useState } from "react";
 import { toast } from "react-toastify";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export function EditTaskModal({ task, onUpdate }) {
   const {
     _id,
@@ -39,7 +41,7 @@ export function EditTaskModal({ task, onUpdate }) {
     try {
       setLoading(true);
 
-      const res = await fetch(`http://localhost:8000/task/${_id}`, {
+      const res = await fetch(`${BACKEND_URL}/task/${_id}`, {
         method: "PATCH",
         headers: {
           "content-type": "application/json",

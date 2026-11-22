@@ -1,11 +1,15 @@
 
 import { Suspense } from "react";
-import TaskList from "../component/TaskList";
+import TaskList from "@/app/component/TaskList";
+
+export const instant = false;
 
 export default function TaskPage({ searchParams }) {
   return (
     <div className="p-5 mx-auto max-w-7xl">
-      <h1 className="text-2xl font-bold mb-5">Task List</h1>
+      <h1 className="text-2xl font-bold mb-5">
+        Task List
+      </h1>
 
       <Suspense
         fallback={

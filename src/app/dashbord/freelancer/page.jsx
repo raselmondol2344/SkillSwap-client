@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import FreelancerOverviewChart from "@/app/component/FreelancerOverviewChart";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function FreelancerOverview() {
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
@@ -28,7 +30,7 @@ export default function FreelancerOverview() {
         setError("");
 
         const res = await fetch(
-          `http://localhost:8000/freelancer-overview/${user.id}`
+          `${BACKEND_URL}/freelancer-overview/${user.id}`
         );
 
         if (!res.ok) {

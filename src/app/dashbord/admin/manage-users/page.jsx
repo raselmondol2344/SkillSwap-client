@@ -4,6 +4,8 @@
 import { useEffect, useState } from "react";
 import DeleteUserModal from "@/app/component/DeleteUserModal";
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+
 export default function ManageUsers() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -13,14 +15,14 @@ export default function ManageUsers() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch("http://localhost:8000/users");
+        const res = await fetch(`${BACKEND_URL}/users`);
         const data = await res.json();
 
         if (res.ok) {
           setUsers(data);
         }
       } catch (error) {
-        console.log(error);
+        //console.log(error);
       } finally {
         setLoading(false);
       }
@@ -32,7 +34,7 @@ export default function ManageUsers() {
   // Delete User
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:8000/user/${id}`, {
+      const res = await fetch(`${BACKEND_URL}/user/${id}`, {
         method: "DELETE",
       });
 
@@ -48,7 +50,7 @@ export default function ManageUsers() {
         alert(data.message);
       }
     } catch (error) {
-      console.log(error);
+      //console.log(error);
     }
   };
 
